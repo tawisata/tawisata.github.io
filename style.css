@@ -15,6 +15,24 @@
   background-attachment: fixed;
   background-size: cover;
 }
+.jumbotron3 {
+  padding-top: 0rem;
+  background: url("./img/projects/10.jpg") center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.jumbotron4 {
+  padding-top: 0rem;
+  background: url("./img/projects/11.jpg") left no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.jumbotron5 {
+  padding-top: 0rem;
+  background: url("./img/projects/12.png") center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .slidee{
   position: absolute;
 }
@@ -29,8 +47,22 @@
   background-color: #000;
 }
 
-#projects {
-  background-color: #fff;
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 section{
