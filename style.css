@@ -17,7 +17,7 @@
 }
 .jumbotron3 {
   padding-top: 0rem;
-  background: url("./img/projects/10.jpg") center no-repeat;
+  background: url("./img/projects/foo.jpg") center no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
